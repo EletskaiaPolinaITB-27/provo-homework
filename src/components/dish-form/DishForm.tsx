@@ -59,8 +59,11 @@ const DishForm = ({onSubmit, loading}: Props) => {
       </Button>
 
       <Button
+      disabled={loading}
+      type='submit'
+      variant='contained'
       >
-
+        {loading ? 'loading' : 'add dish'}
       </Button>
     </form>
   );
