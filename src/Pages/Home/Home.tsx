@@ -36,7 +36,7 @@ export const Home = () => {
   }, [fetchDishes]);
 
 
-
+console.log(loading)
   return (
     <div>
         <Typography variant={'h3'} align='center'>
